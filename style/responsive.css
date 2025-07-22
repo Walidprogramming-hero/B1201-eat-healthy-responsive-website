@@ -1,0 +1,24 @@
+/* mobile device */
+@media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-itme{
+       margin-right: -10px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+    }
+}
+/* medium-device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}

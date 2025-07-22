@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth
+}
+body{
+  background-color:#E5E5E5;
+}
+/* Embed google fonts code starts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Embed google fonts code ends */
+
+/* montserrat-font starts */
+.montserrat-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* montserrat-font ends */
+
+/* shared styling starts*/
+.display-flex{
+  display: flex;
+}
+/* continer starts */
+.continer{
+  max-width: 1440px;
+  margin: 0 auto 50px auto;
+}
+/* continer ends */
+/* 2nd continer starts */
+.second-continer{
+  max-width: 1290px;
+  margin: 50px auto 50px auto;
+}
+/* 2nd continer ends */
+
+/* primary button-session starts */
+.primary-button{
+  padding: 24px 32px;
+  background-image: linear-gradient(#FBA24F,#FF1E1E);
+  border-radius: 100px;
+  color: #ffff;
+  border: transparent;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+/* primary button-session ends */
+/* dark-color-1 */
+.dark-color-1{
+  color: #575757;
+}
+/* dark-color-2 */
+.dark-color-2{
+  color: #707070;
+}
+/* dark-color-3*/
+.dark-color-3{
+  color: #18191F;
+}
+/* dark-5 */
+.dark-5{
+  color: #ffff;
+}
+/* shared styling ends */
+/* navbar styling starts */
+.logo img{
+  width: 100px;
+  border-radius: 50%;
+}
+.nav-bar{
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 5px;
+  background-color: #18191F;
+}
+.nav-links{
+ gap: 50px;
+}
+.nav-itme{
+  list-style: none;
+  margin-right: 10px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+/* navbar styling ends */
+/* banner styling starts */
+#top{
+  margin: 180px auto;
+}
+.banner{
+  align-items: center;
+  justify-content: space-between;
+  background-color:#fff;
+  padding: 10px 50px;
+  border-radius: 15px;
+}
+.banner-content{
+  max-width: 600px;
+}
+.banner-content *{
+  margin-bottom: 20px;
+}
+.banner-tittle{
+  font-size: 4rem;
+}
+.banner-description{
+  color: #828282;
+}
+#medium{
+  font-weight: 500;
+}
+.banner-img{
+  max-width: 792px;
+}
+.banner-img img{
+  width: 100%;
+}
+/* banner styling ends */
