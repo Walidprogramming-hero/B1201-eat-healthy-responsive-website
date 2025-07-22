@@ -12,7 +12,7 @@
        margin-right: -10px;
     }
     .banner{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .banner-content{
         text-align: center;
