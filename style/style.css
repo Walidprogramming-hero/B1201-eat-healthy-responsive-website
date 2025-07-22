@@ -110,13 +110,44 @@ body{
 .banner-description{
   color: #828282;
 }
+span{
+  color: #FBA24F;
+}
 #medium{
   font-weight: 500;
 }
 .banner-img{
-  max-width: 792px;
+  max-width: 672px;
 }
 .banner-img img{
   width: 100%;
 }
 /* banner styling ends */
+/* about-session styling starts */
+.about-session{
+  align-items: center;
+ gap: 250px;
+  padding: 20px 50px;
+border-radius: 25px;
+background-image: url("../images/shapes/Frame\ 58.jpg");
+}
+.about-img{
+  max-width: 735px;
+}
+.about-img img{
+  width: 100%;
+}
+.about-conten{
+  max-width: 444px;
+}
+.about-content *{
+  margin-bottom: 50px;
+}
+.about-tittle{
+  font-size: 2.5rem;
+}
+.about-description{
+  font-size: 1.2rem;
+  line-height: 27px;
+}
+/* about-sessionstyling ends */

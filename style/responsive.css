@@ -17,6 +17,12 @@
     .banner-content{
         text-align: center;
     }
+    .about-session{
+        flex-direction: column;
+    }
+    .about-content{
+        text-align: center;
+    }
 }
 /* medium-device */
 @media screen and (min-width:576px) and (max-width:992px) {
