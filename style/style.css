@@ -151,3 +151,56 @@ background-image: url("../images/shapes/Frame\ 58.jpg");
   line-height: 27px;
 }
 /* about-sessionstyling ends */
+/* recipies session styling starts */
+.recipies-header{
+  max-width: 706px;
+  margin: 0 auto 70px auto;
+  text-align: center;
+}
+.recipies-header-tittle{
+  color: #676767;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+#header-1{
+  font-weight:400;
+}
+.header-description{
+  color: #252525;
+  font-size: 18px;
+  line-height: 30px;
+}
+.recipies-card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  gap: 50px;
+}
+.card-1{
+  max-width: 610px;
+  box-shadow: 0 0 5px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 30px;
+}
+.card-1 img{
+  max-width: 550px;
+  border-radius: 20px;
+  height: 308px;
+  margin-bottom: 25px;
+}
+.card-1 img{
+  width: 100%;
+}
+.card-footer{
+  max-width: 534px;
+}
+.card-tittle{
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.card-description{
+  font-size: 18px;
+  line-height: 30px;
+}
+/* recipies session styling ends */
