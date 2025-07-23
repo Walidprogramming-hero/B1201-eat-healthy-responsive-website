@@ -204,3 +204,23 @@ background-image: url("../images/shapes/Frame\ 58.jpg");
   line-height: 30px;
 }
 /* recipies session styling ends */
+/* channel-session continer styling starts */
+.channel-session{
+  background-color: #ffff;
+  border-radius: 20px;
+}
+.channel{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
+  padding: 64px 165px;
+  gap: 30px;
+}
+.channel-card h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.channel-card p{
+  font-size: 18px;
+}
+/* channel-session continer styling ends */
