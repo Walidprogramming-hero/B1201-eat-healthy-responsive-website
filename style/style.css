@@ -117,7 +117,10 @@ span{
   font-weight: 500;
 }
 .banner-img{
-  max-width: 672px;
+  width: 672px;
+  height: 400px;
+  background-image: url("../images/shapes/Group\ 8450.png");
+   background-repeat: no-repeat;
 }
 .banner-img img{
   width: 100%;
