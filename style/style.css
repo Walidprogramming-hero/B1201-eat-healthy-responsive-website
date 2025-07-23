@@ -224,3 +224,21 @@ background-image: url("../images/shapes/Frame\ 58.jpg");
   font-size: 18px;
 }
 /* channel-session continer styling ends */
+/* footer styling */
+footer{
+  background-color: #18191F;
+  height: 350px;
+}
+.main-footer{
+  text-align: center;
+  margin: 80px auto;
+  padding: 150px 10px;
+}
+.footer-tittle{
+  color: #5B5B5B;
+  margin-bottom: 30px;
+  font-size: 1.9rem;
+}
+.footer-description{
+  color: #ffff;
+}
